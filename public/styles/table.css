@@ -20,6 +20,10 @@ td, th {
     
 } */
 
+body {
+    margin: 0;
+}
+
 table {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 200px;
