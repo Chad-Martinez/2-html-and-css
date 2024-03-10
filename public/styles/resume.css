@@ -13,25 +13,40 @@ body {
   background-color: #141414;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #141414;
+}
+
+.social {
+  width: 100%;
+  margin: 20px 20px;
   display: flex;
   justify-content: center;
 }
 
-.social {
+i.fa-brands {
+  font-size: 20px;
+  margin: 0px 10px;
+  color: #6d6d6d;
 }
 
-.container {
+.resume {
   background-color: #282828;
-  margin: 20px;
+  margin: 0px 20px;
   padding: 30px;
   min-width: 360px;
-  max-width: 800px;
+  max-width: 60%;
   border-radius: 4px;
 }
 
 .about {
   width: 100%;
-  border-bottom: 0.5px solid white;
+  border-bottom: 0.5px solid var(--primary-text-color);
 }
 
 h1 {
@@ -44,27 +59,6 @@ h3 {
   color: var(--color-darkblue);
   margin: 0px;
 }
-
-/* .info {
-  margin: 35px;
-}
-
-.info__container {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.info__title {
-  color: var(--primary-text-color);
-  width: 40%;
-  text-align: end;
-}
-
-.info__item {
-  color: var(--secondary-text-color);
-  width: 60%;
-} */
 
 .table-container {
   display: flex;
@@ -84,7 +78,7 @@ tr td:last-child {
 }
 
 td a {
-  color: #4aa4c8;
+  color: var(--color-darkblue);
 }
 
 p {
@@ -108,18 +102,15 @@ span {
   color: var(--secondary-text-color);
 }
 
-.bar {
-  margin-bottom: 20px;
-}
-
 .bar-container {
   margin: 8px 0px;
   background-color: #3b3b3b;
   border-radius: 3px;
 }
 
-.skill {
+.percent {
   text-align: end;
+  margin-bottom: 20px;
   padding-right: 5px;
   border-radius: 3px;
   color: var(--primary-text-color);
@@ -238,40 +229,6 @@ span {
   background-color: var(--color-red);
 }
 
-/* ul {
-  background-color: var(--secondary-text-color);
-}
-
-ul {
-  list-style-type: square;
-}
-
-li {
-  font-size: 1.1rem;
-}
-
-li:first-child::marker {
-  font-size: 1.8rem;
-  color: #2b7fa2;
-}
-
-li:nth-child(2)::marker {
-  font-size: 1.8rem;
-  color: #4fb6f6;
-}
-li:nth-child(3)::marker {
-  font-size: 1.8rem;
-  color: #68a138;
-}
-li:nth-child(4)::marker {
-  font-size: 1.8rem;
-  color: #ffbf2c;
-}
-li:last-child::marker {
-  font-size: 1.8rem;
-  color: #be2528;
-} */
-
 .lang-container {
   color: var(--secondary-text-color);
   display: flex;
@@ -306,11 +263,17 @@ li:last-child::marker {
   border: 0.3px solid grey;
 }
 
+.card {
+  margin: 12px 0px;
+}
+
 .card__header__container {
   color: var(--primary-text-color);
   display: flex;
   margin: 35px 0px;
 }
+
+
 
 .card__title__icon {
   border-radius: 5px;
@@ -319,8 +282,19 @@ li:last-child::marker {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-lightblue);
   font-size: 25px;
+}
+
+.job {
+background-color: var(--color-lightblue);
+}
+
+.ed {
+  background-color: var(--color-green);
+}
+
+.fa-chevron-down {
+  margin-left: 3px;
 }
 
 .card__title__text {
@@ -351,14 +325,20 @@ li:last-child::marker {
 }
 
 .card__chevron-icon__container {
-  height: 25px;
-  width: 25px;
+  height: 30px;
+  width: 30px;
   border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
+  
   color: var(--primary-text-color);
   margin-right: 10px;
+}
+
+.fa-chevron-right {
+  margin: 3px;
+  font-size: 14px;
 }
 
 .jobs .card__chevron-icon__container {
@@ -380,8 +360,5 @@ li:last-child::marker {
 }
 
 .card p {
-  width: 100%;
-}
-
-.education {
+ padding: 0;
 }
