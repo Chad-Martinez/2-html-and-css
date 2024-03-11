@@ -30,13 +30,22 @@ body {
   width: 100%;
   margin: 20px 20px;
   display: flex;
+  height: 24px;
   justify-content: center;
 }
 
-i.fa-brands {
-  font-size: 20px;
+.social i {
+font-size: 20px;
   margin: 0px 10px;
   color: var(--secondary-text-color);
+}
+
+.social i:hover {
+  color: var(--color-darkblue);
+}
+
+i.fa-brands {
+  
 }
 
 .resume {
