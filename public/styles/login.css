@@ -1,82 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #f9fafc;
 }
 
-.flex-box {
+.container {
   display: flex;
+  height: 100vh;
   justify-content: center;
-  margin-top: 40px;
-  padding: 20px;
+  align-items: center;
+  /* padding: 20px; */
 }
 
-.login-container {
+.login__container {
   display: flex;
-  border: 1px solid white;
-  border-radius: 12px;
-  background-color: white;
-  width: 50%;
   flex-wrap: wrap;
-  justify-content: center;
-  box-shadow: 4px 4px 10px grey;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 75%;
+  padding: 30px;
+  /* border: 1px solid white; */
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px 1.5px rgba(128, 128, 128, 0.5);
+  background-color: white;
 }
 
-.icon {
+.login__header__container {
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+i.fa-pied-piper-alt {
   color: #3c3c3c;
   margin-top: 40px;
   font-size: 80px;
 }
 
-.login-header {
+.login__header {
   font-size: 26px;
-  display: block;
-  margin: px;
-  width: 100%;
+  /* display: block; */
+  /* margin: px; */
+  /* width: 100%; */
   color: #3c3c3c;
-  text-align: center;
-}
-
-form {
-  display: flex;
-  /* border: 2px solid red; */
-  color: #8e8c8c;
-  width: 60%;
-  flex-wrap: wrap;
-  padding: 10px;
-  margin: 0px 0px 50px 0px;
-}
-
-.form-group {
-  width: 100%;
-  margin: 5px;
-  display: block;
-}
-
-.form-group label {
-  /* border: 2px solid black; */
-  /* margin-bottom: 10px; */
-  /* padding-left: 3px; */
-}
-
-input {
-  width: 100%;
-  height: 35px;
-  margin-top: 5px;
-  border: 1px solid #979494;
-  border-radius: 10px;
-  padding: 0px;
-  box-shadow: 3px 3px 3px #bcbcbc;
-  /* padding: 5px; */
-}
-
-input::placeholder {
-  color: #bdbdbd;
-  padding: 12px;
-}
-
-input:focus {
-  border: 1px solid #4780e9;
+  /* text-align: center; */
 }
 
 button {
@@ -91,10 +62,10 @@ button {
 }
 
 button:hover {
-    /* border: 1px solid black; */
-    /* background-color: white; */
-    box-shadow: none;
-    font-size: 14px;
+  /* border: 1px solid black; */
+  /* background-color: white; */
+  box-shadow: none;
+  font-size: 14px;
 }
 
 .forgot-password {

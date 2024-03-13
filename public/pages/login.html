@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/login.css" />
+    <link rel="stylesheet" href="../styles/forms.css">
     <link rel="stylesheet" href="../styles/navbar.css" />
     <script
       src="https://kit.fontawesome.com/762d37fbf3.js"
@@ -27,17 +28,19 @@
         </a>
       </li>
     </ul>
-    <div class="flex-box">
-      <div class="login-container">
-        <i class="fa-brands fa-pied-piper-alt icon"></i>
-        <h3 class="login-header">Login</h3>
+    <div class="container">
+      <div class="login__container">
+        <div class="login__header__container">
+        <i class="fa-brands fa-pied-piper-alt"></i>
+        <h3 class="login__header">Login</h3>
+        </div>
         <form>
           <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Email" />
+            <!-- <label for="email">Email</label> -->
+            <input type="email" id="email" name="email" placeholder="Email" autocomplete="email"/>
           </div>
           <div class="form-group">
-            <label for="password">Password</label>
+            <!-- <label for="password">Password</label> -->
             <input
               type="password"
               id="password"

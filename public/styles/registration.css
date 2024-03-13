@@ -1,25 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #f9fafc;
 }
 
-.flex-box {
+.container {
   display: flex;
+  height: 100vh;
   justify-content: center;
-  margin-top: 40px;
-  padding: 20px;
+  align-items: center;
 }
 
-.login-container {
+.register__container {
   display: flex;
-  border: 1px solid white;
-  border-radius: 12px;
-  background-color: white;
-  width: 60%;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  width: 80%;
+  padding: 10px 20px;
+  border-radius: 12px;
   box-shadow: 4px 4px 10px grey;
+  background-color: white;
+  
+}
+
+.register__header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .icon {
@@ -28,18 +40,16 @@ body {
   font-size: 80px;
 }
 
-.login-header {
+.register__header {
   font-size: 26px;
-  display: block;
-  margin: px;
   width: 100%;
   color: #3c3c3c;
   text-align: center;
 }
 
-form {
+/* form {
   display: flex;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   color: #8e8c8c;
   width: 60%;
   flex-wrap: wrap;
@@ -70,7 +80,7 @@ form {
 
 .form-group input:focus {
   border: 1px solid #4780e9;
-}
+} */
 
 .radio-group {
   margin: 10px 0px;
