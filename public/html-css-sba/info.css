@@ -1,26 +1,3 @@
-.title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 35px;
-  width: 100%;
-  height: 50px;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.title h2 {
-  margin: 0px;
-}
-
-.title__border-bottom {
-  height: 1px;
-  width: 25%;
-  border-bottom: 1px solid white;
-}
-
 .matrix {
   display: flex;
   flex-wrap: wrap;
