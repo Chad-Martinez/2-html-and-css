@@ -35,38 +35,23 @@ body {
   font-size: 0.6rem;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  height: 100vh;
-  padding: 10px;
-}
-
-.footer__container {
-      display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  width: 100%
-}
-
 .footer img {
-    height: 100px;
+  height: 100px;
 }
 
 .footer__text {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Architects Daughter', cursive;
-    font-size: .6rem;
-    align-self: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 0.6rem;
+  align-self: center;
 }
 
 .footer__text span {
-    padding: 5px;
-    text-align: center;
+  padding: 5px;
+  text-align: center;
 }
 
 .footer__text span:last-child {
-    font-size: .4rem;
+  font-size: 0.4rem;
 }
