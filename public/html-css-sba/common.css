@@ -46,3 +46,18 @@ body {
   width: 25%;
   border-bottom: 1px solid white;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 100vh;
+  padding: 10px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 100%;
+}
