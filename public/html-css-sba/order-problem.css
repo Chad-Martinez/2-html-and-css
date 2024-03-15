@@ -1,0 +1,18 @@
+.order-problem__img {
+  display: flex;
+  justify-content: center;
+}
+
+.order-problem__img img {
+  width: 320px;
+}
+
+.order-problem__container {
+  padding-top: 20px;
+}
+
+.order-problem__text {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.3rem;
+  text-align: center;
+}
