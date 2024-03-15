@@ -5,9 +5,9 @@
 :root {
   --bg-red: #dc3545;
   --color-blue: #1e818f;
-  --color-green: #007F73;
-  --nav-bg-color: #4CCD99;
-  --color-yellow: #FFC700;
+  --color-green: #007f73;
+  --nav-bg-color: #4ccd99;
+  --color-yellow: #ffc700;
   --color-yellow-subtle: #faf6b8;
   --color-grey: #555555;
 }
@@ -33,6 +33,7 @@ body {
   width: 100%;
   height: 50px;
   color: white;
+  font-family: 'Architects Daughter', cursive;
   text-transform: uppercase;
   text-align: center;
 }
