@@ -19,7 +19,7 @@ body {
   text-align: center;
 }
 
-.footer__text {
+.problem__container {
   display: flex;
   flex-direction: column;
   font-family: 'Architects Daughter', cursive;
